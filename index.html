@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Hangman</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css'>
+ 
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+
+  </head>
+  <body>
+
+  
+<div class="jumbotron bg-transparent mb-0 radius-0">
+  <div class="container">
+      <div class="row">
+        <div class="col-xl-11">
+          <h1 class="display-2">Cyberpunk Hangma<span class="vim-caret">n</span></h1> 
+          <div class="lead mb-3 text-mono text-success">Try to beat me you dumb human!</div>
+        </div>
+        <div class="col-xl-1">
+            <div class="position=relative float-right"><span class="hal-9000 d-block mx-auto mb-4 mt-3"></span></div>
+        </div>
+      </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xl-12">
+      <p class="display 4 text-mono">Guess: <span id="underscore"></span></p>
+      <p class="display 4 text-mono">Right Guess: <span id="rightGuess"></span></p>
+      <p class="display 4 text-mono">Wrong Guess: <span id="wrongGuess"></span></p>
+      <p class="display 4 text-mono">Total Guesses: 8</p>
+      <p class="display 4 text-monos">Guesses Left: <span id="guesses-left"></span></p>
+      <p class="display 4 text-mono">Wins: <span id="wins"></span></p>
+      <p class="display 4 text-mono">Losses: <span id="losses"></span></p>
+    </div>
+  </div>
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+ 
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  <script src="assets/javascript/game.js"></script>
+  </body>
+</html>
